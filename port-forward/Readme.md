@@ -1,7 +1,7 @@
-Port Forwarding for Docker
-==========================
+Port Forwarding for Docker - IPv6 listening
+===========================================
 
-Simple docker image to forward ports using socat.
+Simple docker image to forward ports using socat, listening only to IPv6 and forwarding to IPv4.
 
 ## Usage
 
@@ -38,4 +38,8 @@ docker run -e REMOTE_HOST=www.marcnuri.com -p 8080:80 marcnuri/port-forward
 ## Docker hub
 
 Docker image hosted at Docker Hub:
-https://hub.docker.com/r/marcnuri/port-forward/
+https://hub.docker.com/r/gmanic/port-forward6/
+
+## Credit
+
+Thanks to marcnuri / manusa for this simple and very clear port-forwarding container basic.
