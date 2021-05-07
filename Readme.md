@@ -3,6 +3,8 @@ Port Forwarding for Docker - IPv6 listening
 
 Simple docker image to forward ports using socat, listening only to IPv6 and forwarding to IPv4.
 
+-Copied from manusa / marcnuri: see Credits & Thanks to the author.
+
 ## Usage
 
 Define the following environment variables to configure port-forwarding.
