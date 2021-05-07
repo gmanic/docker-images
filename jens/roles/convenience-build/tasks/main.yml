@@ -1,9 +1,0 @@
----
-- name: net-tools
-  package: name="{{ item }}"
-  with_items:
-    - git
-    - rpm-build
-    - "@Development Tools"
-    - man-pages
-    - java-11-openjdk-devel
