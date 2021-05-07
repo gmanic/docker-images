@@ -1,0 +1,10 @@
+---
+- name: python-firewall installieren
+  package: name=python-firewall
+
+- name: Port {{ LOCAL_PORT }} oeffnen
+  firewalld:
+    port: "{{ LOCAL_PORT }}/tcp"
+    permanent: true
+    immediate: true
+    state: enabled

@@ -1,0 +1,43 @@
+---
+- name: create some directories
+  file:
+    state: directory
+    path: "/srv/{{ item }}"
+  with_items:
+    - "{{ MYSQL_DATABASE }}/config"
+    - "{{ MYSQL_DATABASE }}/cache"
+    - "{{ MYSQL_DATABASE }}/opt"
+
+- name: Imagemagick installieren
+  package: 
+    name: ImageMagick
+    state: present
+
+- name: Exiv2 installieren
+  package: 
+    name: exiv2
+    state: present
+
+- name: piwigo-Container starten
+  docker_container:
+    name: "{{ MYSQL_DATABASE }}"
+    image: ghcr.io/linuxserver/piwigo
+    state: started
+#    recreate: yes
+    restart: yes
+    restart_policy: always
+    networks_cli_compatible: yes
+    networks:
+      - name: 'bridge'
+      - name: 'mysql_net_for_{{ MYSQL_DATABASE }}'
+    volumes:
+      - /srv/{{ MYSQL_DATABASE }}/opt:/srv/opt:rw,Z
+      - /srv/{{ MYSQL_DATABASE }}/config:/config:rw,Z
+      - /srv/{{ MYSQL_DATABASE }}/cache:/var/cache/nginx:rw,Z
+    env:
+      VIRTUAL_PROTO: "https"
+      VIRTUAL_PORT: "443"
+      TZ: Europe/Berlin
+      VIRTUAL_HOST: "{{ VIRTUAL_HOST }}"
+      LETSENCRYPT_HOST: "{{ VIRTUAL_HOST }}"
+      LETSENCRYPT_EMAIL: postmaster@gecius.de

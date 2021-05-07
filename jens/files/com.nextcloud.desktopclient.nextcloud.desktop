@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Nextcloud Desktop SyncClient
+GenericName=File Synchronizer
+Exec=bash -c "sleep 5 && /usr/bin/nextcloud"
+Icon=Nextcloud
+Categories=Network
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-delay=5

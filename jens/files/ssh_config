@@ -1,0 +1,92 @@
+Host bum
+	Port 22
+	User root
+	Hostname bum.gecius.de
+Host server
+	Port 22
+	User root
+	Hostname server
+
+Host jens-server
+	Port 22
+	User root
+	Hostname server
+
+Host jens-http
+        User root
+        Hostname  192.168.175.80 
+        ProxyCommand   ssh -4 root@bum5.dynsinn.org nc %h %p 2>/dev/null
+
+Host jens-ftp1
+        User ftp1
+	Hostname bum5.dynsinn.org
+	Port 10022
+
+Host ulf-dns
+        User root
+        Hostname  192.168.184.53
+        ProxyCommand   ssh -4 root@bum5.dynsinn.org nc %h %p 2>/dev/null
+
+Host jens-mail
+        User root
+        Hostname  192.168.175.25
+        ProxyCommand   ssh -4 root@bum5.dynsinn.org nc %h %p 2>/dev/null
+
+Host jens-other
+        User root
+        Hostname  192.168.175.99
+        ProxyCommand   ssh -4 root@bum5.dynsinn.org nc %h %p 2>/dev/null
+
+Host jens-vpnpi
+	User root
+	Hostname  192.168.178.61
+
+Host jens-fhempi
+	User root
+	Hostname  192.168.178.60
+
+Host jens-doorpi
+	User root
+	Hostname  192.168.178.70
+
+Host jens-hallenpi
+	User root
+#	Hostname  192.168.178.47
+	Hostname  10.8.2.3
+
+Host ulf-mail 
+        User root 
+        Hostname  192.168.184.25
+        ProxyCommand   ssh -4 root@bum5.dynsinn.org nc %h %p 2>/dev/null
+
+Host jens-home-vm
+        User root
+        Hostname  192.168.200.25
+        ProxyCommand   ssh -4 root@jens-server nc %h %p 2>/dev/null
+
+Host jens-home-http
+        User root
+        Hostname  192.168.200.80
+        ProxyCommand   ssh -4 root@jens-server nc %h %p 2>/dev/null
+
+Host jens-home-build
+        User root
+        Hostname  192.168.200.50
+        ProxyCommand   ssh -4 root@jens-server nc %h %p 2>/dev/null
+
+Host github.com
+        Hostname github.com
+        User git
+        IdentityFile ~/.ssh/id_rsa.github
+
+Host home-local
+        User root
+        Hostname 127.0.0.1
+
+Host CarPi
+        User pi
+        Hostname 192.168.178.81
+
+Host octopi
+        User pi
+        Hostname 192.168.178.69
