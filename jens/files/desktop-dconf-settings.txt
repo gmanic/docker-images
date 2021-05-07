@@ -1,0 +1,557 @@
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/terminal/legacy/keybindings/'
+saved-view='/org/gnome/terminal/legacy/'
+show-warning=false
+window-height=500
+window-is-maximized=false
+window-width=540
+
+[org/gnome/Totem]
+active-plugins=['rotation', 'autoload-subtitles', 'recent', 'open-directory', 'screensaver', 'movie-properties', 'variable-rate', 'apple-trailers', 'save-file', 'screenshot', 'skipto', 'media-player-keys', 'vimeo']
+subtitle-encoding='UTF-8'
+
+[org/gnome/Weather]
+locations=[<(uint32 2, <('Hannover', 'EDDV', false, [(0.91571608669745586, 0.16900604341702005)], @a(dd) [])>)>]
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(26, 23)
+word-size=64
+
+[org/gnome/cheese]
+burst-delay=1000
+camera='USB PHY 2.0: USB CAMERA'
+photo-x-resolution=640
+photo-y-resolution=480
+video-x-resolution=640
+video-y-resolution=480
+
+[org/gnome/control-center]
+last-panel='mouse'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'de+nodeadkeys')]
+xkb-options=['lv3:ralt_switch']
+
+[org/gnome/desktop/interface]
+gtk-im-module='gtk-im-context-simple'
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[org/gnome/desktop/media-handling]
+autorun-x-content-ignore=@as []
+autorun-x-content-open-folder=@as []
+autorun-x-content-start-app=['x-content/ostree-repository']
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software', 'gnome-printers-panel', 'firefox', 'org-gnome-terminal', 'com-nextcloud-desktopclient-nextcloud', 'org-keepassxc-keepassxc', 'org-signal-signal', 'xdg-desktop-portal-gtk', 'org-freedesktop-problems-applet', 'org-gnome-evolution', 'org-gnome-evolution-alarm-notify', 'gnome-power-panel', 'io-github-hexchat', 'libreoffice-calc', 'org-gnome-nautilus', 'gimp', 'mozilla-thunderbird', 'com-prusa3d-prusaslicer', 'org-gnome-gedit', 'org-gnome-fileroller']
+
+[org/gnome/desktop/notifications/application/com-nextcloud-desktopclient-nextcloud]
+application-id='com.nextcloud.desktopclient.nextcloud.desktop'
+
+[org/gnome/desktop/notifications/application/com-prusa3d-prusaslicer]
+application-id='com.prusa3d.PrusaSlicer.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gimp]
+application-id='gimp.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/io-github-hexchat]
+application-id='io.github.Hexchat.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-calc]
+application-id='libreoffice-calc.desktop'
+
+[org/gnome/desktop/notifications/application/mozilla-thunderbird]
+application-id='mozilla-thunderbird.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution]
+application-id='org.gnome.Evolution.desktop'
+enable=true
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-keepassxc-keepassxc]
+application-id='org.keepassxc.KeePassXC.desktop'
+
+[org/gnome/desktop/notifications/application/org-signal-signal]
+application-id='org.signal.Signal.desktop'
+
+[org/gnome/desktop/notifications/application/xdg-desktop-portal-gtk]
+application-id='xdg-desktop-portal-gtk.desktop'
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=false
+
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+lock-delay=uint32 0
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
+[org/gnome/desktop/wm/keybindings]
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+
+[org/gnome/eog/plugins]
+active-plugins=['fullscreen', 'statusbar-date']
+
+[org/gnome/eog/ui]
+sidebar=false
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince]
+document-directory=@ms 'file:///home/jens/Dokumente/Auto/Zeitschriften'
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='fit-width'
+window-ratio=(1.803921568627451, 0.82323221928886126)
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/evolution-data-server/calendar]
+notify-window-height=160
+notify-window-paned-position=73
+notify-window-width=814
+notify-window-x=26
+notify-window-y=23
+reminders-past=['84928d2e348f1d4d5c97ae7819fdbbeb0f7108b0\n344895e2df239b384ab9e0b9375c2c8edff80dc5\n1616976000\n1616976000\n1617062400\nBEGIN:VEVENT\r\nDTSTAMP:20201024T203052Z\r\nDTSTART;VALUE=DATE:20180329\r\nDTEND;VALUE=DATE:20180330\r\nUID:ede227e8-d326-4299-8d97-5c6a12c812a3\r\nRRULE:FREQ=YEARLY\r\nSUMMARY:🎂 Tom Brandes (2018)\r\nTRANSP:TRANSPARENT\r\nX-NEXTCLOUD-BC-FIELD-TYPE:BDAY\r\nX-NEXTCLOUD-BC-UNKNOWN-YEAR:0\r\nX-NEXTCLOUD-BC-YEAR:2018\r\nX-EVOLUTION-CALDAV-ETAG:514018f09d36ee72d88fe62e0e158654\r\nBEGIN:VALARM\r\nTRIGGER:PT0S\r\nACTION:DISPLAY\r\nDESCRIPTION:🎂 Tom Brandes (2018)\r\nX-EVOLUTION-ALARM-UID:344895e2df239b384ab9e0b9375c2c8edff80dc5\r\nEND:VALARM\r\nEND:VEVENT\r\n', '84928d2e348f1d4d5c97ae7819fdbbeb0f7108b0\n9d1e15399b60ee188aa8535d5a078c77e299bba4\n1616457600\n1616457600\n1616544000\nBEGIN:VEVENT\r\nDTSTAMP:20201024T203046Z\r\nDTSTART;VALUE=DATE:19810323\r\nDTEND;VALUE=DATE:19810324\r\nUID:88ebd3b7-9756-4b18-95d9-c34eecbdfc14\r\nRRULE:FREQ=YEARLY\r\nSUMMARY:🎂 Daniela Schulz (1981)\r\nTRANSP:TRANSPARENT\r\nX-NEXTCLOUD-BC-FIELD-TYPE:BDAY\r\nX-NEXTCLOUD-BC-UNKNOWN-YEAR:0\r\nX-NEXTCLOUD-BC-YEAR:1981\r\nX-EVOLUTION-CALDAV-ETAG:caad33f5eea7371ec9aa9ac3222588c0\r\nBEGIN:VALARM\r\nTRIGGER:PT0S\r\nACTION:DISPLAY\r\nDESCRIPTION:🎂 Daniela Schulz (1981)\r\nX-EVOLUTION-ALARM-UID:9d1e15399b60ee188aa8535d5a078c77e299bba4\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/evolution]
+version='3.38.4'
+
+[org/gnome/evolution/addressbook]
+address-formatting=true
+completion-minimum-query-length=3
+completion-show-address=false
+
+[org/gnome/evolution/calendar]
+prefer-new-item=''
+use-24hour-format=true
+week-start-day-name='monday'
+work-day-friday=true
+work-day-monday=true
+work-day-saturday=false
+work-day-sunday=false
+work-day-thursday=true
+work-day-tuesday=true
+work-day-wednesday=true
+
+[org/gnome/evolution/mail]
+browser-close-on-reply-policy='ask'
+composer-show-from-override=false
+composer-visually-wrap-long-lines=false
+forward-style-name='attached'
+image-loading-policy='never'
+junk-check-custom-header=true
+junk-check-incoming=true
+junk-empty-on-exit-days=0
+junk-lookup-addressbook=false
+mark-seen-timeout=500
+paned-size=1713789
+prompt-on-composer-mode-switch=true
+reply-style-name='quoted'
+search-gravatar-for-photo=false
+to-do-bar-width=1186788
+trash-empty-on-exit-days=0
+
+[org/gnome/evolution/mail/browser-window]
+height=400
+maximized=false
+width=600
+
+[org/gnome/evolution/mail/composer-window]
+height=529
+maximized=false
+width=669
+
+[org/gnome/evolution/plugin/prefer-plain]
+mode='normal'
+show-suppressed=true
+
+[org/gnome/evolution/shell]
+attachment-view=0
+buttons-visible=true
+default-component-id='mail'
+file-chooser-folder='file:///home/jens/Dokumente/Auto/Camper'
+folder-bar-width=233
+menubar-visible=true
+sidebar-visible=true
+statusbar-visible=true
+toolbar-visible=true
+
+[org/gnome/evolution/shell/window]
+height=480
+maximized=true
+width=640
+x=0
+y=27
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=681
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'sort', 'spell', 'docinfo', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/jens/Dokumente/Projekte/3D-Druck/Molex_Housing'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/gnome-screenshot]
+include-pointer=false
+last-save-directory='file:///home/jens'
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+attach-modal-dialogs=false
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='larger'
+
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified', 'starred']
+use-tree-view=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+show-image-thumbnails='always'
+
+[org/gnome/nautilus/window-state]
+maximized=true
+sidebar-width=212
+
+[org/gnome/settings-daemon/plugins/media-keys]
+next=['AudioNext']
+play=['AudioPlay']
+previous=['AudioPrev']
+volume-down=['AudioLowerVolume']
+volume-mute=['AudioMute']
+volume-up=['AudioRaiseVolume']
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='hibernate'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[org/gnome/shell]
+app-picker-layout=[{'org.gnome.Boxes.desktop': <{'position': <0>}>, 'org.gnome.Cheese.desktop': <{'position': <1>}>, 'org.gnome.Nautilus.desktop': <{'position': <2>}>, 'gnome-control-center.desktop': <{'position': <3>}>, 'firefox.desktop': <{'position': <4>}>, 'org.gnome.Photos.desktop': <{'position': <5>}>, 'Utilities': <{'position': <6>}>, 'org.gnome.Calendar.desktop': <{'position': <7>}>, 'org.gnome.Maps.desktop': <{'position': <8>}>, 'org.gnome.Contacts.desktop': <{'position': <9>}>, 'libreoffice-calc.desktop': <{'position': <10>}>, 'libreoffice-impress.desktop': <{'position': <11>}>, 'libreoffice-writer.desktop': <{'position': <12>}>, 'rhythmbox.desktop': <{'position': <13>}>, 'org.gnome.Software.desktop': <{'position': <14>}>, 'org.gnome.gedit.desktop': <{'position': <15>}>, 'org.gnome.clocks.desktop': <{'position': <16>}>, 'org.gnome.Totem.desktop': <{'position': <17>}>, 'org.gnome.Weather.desktop': <{'position': <18>}>, 'mozilla-thunderbird.desktop': <{'position': <19>}>, 'org.gnome.Evolution.desktop': <{'position': <20>}>, 'java-11-openjdk-11.0.10.0.9-0.fc33.x86_64-jconsole.desktop': <{'position': <21>}>, 'pidgin.desktop': <{'position': <22>}>, 'gimp.desktop': <{'position': <23>}>}, {'libreoffice-base.desktop': <{'position': <0>}>, 'libreoffice-draw.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'com.nextcloud.desktopclient.nextcloud.desktop': <{'position': <3>}>, 'org.remmina.Remmina.desktop': <{'position': <4>}>, 'brasero.desktop': <{'position': <5>}>, 'byobu.desktop': <{'position': <6>}>, 'calibre-gui.desktop': <{'position': <7>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <8>}>, 'etherape.desktop': <{'position': <9>}>, 'glabels-3.0.desktop': <{'position': <10>}>, 'gparted.desktop': <{'position': <11>}>, 'de.haeckerfelix.gradio.desktop': <{'position': <12>}>, 'gvim.desktop': <{'position': <13>}>, 'io.github.Hexchat.desktop': <{'position': <14>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <15>}>, 'gconf-editor.desktop': <{'position': <16>}>, 'net.poedit.Poedit.desktop': <{'position': <17>}>, 'setroubleshoot.desktop': <{'position': <18>}>, 'mozilla-thunderbird-wayland.desktop': <{'position': <19>}>, 'ufraw.desktop': <{'position': <20>}>, 'virt-manager.desktop': <{'position': <21>}>, 'wireshark.desktop': <{'position': <22>}>, 'org.signal.Signal.desktop': <{'position': <23>}>}, {'de.haeckerfelix.Shortwave.desktop': <{'position': <0>}>, 'codium.desktop': <{'position': <1>}>}]
+favorite-apps=['firefox.desktop', 'mozilla-thunderbird.desktop', 'io.github.Hexchat.desktop', 'org.gnome.Nautilus.desktop', 'codium.desktop', 'org.signal.Signal.desktop', 'org.keepassxc.KeePassXC.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Calculator.desktop', 'rhythmbox.desktop']
+had-bluetooth-devices-setup=true
+
+[org/gnome/shell/weather]
+automatic-location=true
+locations=@av []
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1615016629
+download-updates=false
+install-timestamp=int64 1614538309
+online-updates-timestamp=int64 1614755606
+show-nonfree-prompt=false
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '449b91ec-0e73-4829-a8cb-d5ebfe19173d', '4287c323-8ec0-46c8-a5a8-189a8118f885', 'f05f9b21-40df-40d7-9003-914ecdc88bc1', '86aad889-2c6e-431c-9115-ca3d48a7cc69', '7960f69c-aa3f-4364-b079-c2041b3775a2', '5f6711e8-45d6-48ac-9406-dc3d20ed6beb', '6469545a-73c9-4b1c-8380-0e950e367bb9', 'caa1311b-e9ef-4ac9-8a66-fada9bbc3dff', '4b723b25-4ce1-46b0-beaa-b1aa913ab593', '76f0d8e1-f73d-47ff-9838-5a027d4c4f70', '24667fe2-9f6e-4958-8e38-c6fb6786f079', '6ce33abc-0570-46a0-9287-b4b3a9576853', 'ec6e2e07-be47-4605-b2bd-53ed284d612e', 'd4c60d11-9e1e-45e8-a8dd-49c966328d1e']
+
+[org/gnome/terminal/legacy/profiles:/:24667fe2-9f6e-4958-8e38-c6fb6786f079]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20110 jens-home-http -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='home-jens-http-root'
+
+[org/gnome/terminal/legacy/profiles:/:4287c323-8ec0-46c8-a5a8-189a8118f885]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20010 jens-fhempi -X -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-fhempi-root'
+
+[org/gnome/terminal/legacy/profiles:/:449b91ec-0e73-4829-a8cb-d5ebfe19173d]
+background-color='rgb(253,246,227)'
+custom-command='autossh -M 20000 jens-server -t "screen -xRR"'
+default-size-columns=130
+default-size-rows=40
+foreground-color='rgb(101,123,131)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='server-root'
+
+[org/gnome/terminal/legacy/profiles:/:4b723b25-4ce1-46b0-beaa-b1aa913ab593]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20090 bum -t "screen -xRR"'
+default-size-columns=80
+default-size-rows=40
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-root'
+
+[org/gnome/terminal/legacy/profiles:/:5f6711e8-45d6-48ac-9406-dc3d20ed6beb]
+background-color='rgb(46,52,54)'
+custom-command='autossh -M 20060 jens-http -t "screen -xRR"'
+default-size-columns=160
+default-size-rows=30
+foreground-color='rgb(211,215,207)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-jens-http-root'
+
+[org/gnome/terminal/legacy/profiles:/:6469545a-73c9-4b1c-8380-0e950e367bb9]
+background-color='rgb(46,52,54)'
+custom-command='autossh -M 20070 jens-mail -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(211,215,207)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-jens-mail-root'
+
+[org/gnome/terminal/legacy/profiles:/:6ce33abc-0570-46a0-9287-b4b3a9576853]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20120 jens-home-vm -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='home-jens-vm-root'
+
+[org/gnome/terminal/legacy/profiles:/:76f0d8e1-f73d-47ff-9838-5a027d4c4f70]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20100 ulf-dns -t "screen -xRR"'
+default-size-columns=80
+default-size-rows=40
+foreground-color='rgb(170,170,170)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-ulf-dns-root'
+
+[org/gnome/terminal/legacy/profiles:/:7960f69c-aa3f-4364-b079-c2041b3775a2]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20040 CarPi -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-carpi-root'
+
+[org/gnome/terminal/legacy/profiles:/:86aad889-2c6e-431c-9115-ca3d48a7cc69]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20030 jens-vpnpi -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-vpnpi-root'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='Local-Default'
+
+[org/gnome/terminal/legacy/profiles:/:caa1311b-e9ef-4ac9-8a66-fada9bbc3dff]
+background-color='rgb(46,52,54)'
+custom-command='autossh -M 20080 jens-other -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(211,215,207)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-jens-other-root'
+
+[org/gnome/terminal/legacy/profiles:/:d4c60d11-9e1e-45e8-a8dd-49c966328d1e]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20130 jens-home-build -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='home-jens-build-root'
+
+[org/gnome/terminal/legacy/profiles:/:ec6e2e07-be47-4605-b2bd-53ed284d612e]
+background-color='rgb(0,0,0)'
+custom-command='ssh root@localhost'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='Local-root'
+
+[org/gnome/terminal/legacy/profiles:/:f05f9b21-40df-40d7-9003-914ecdc88bc1]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20020 jens-hallenpi -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-hallenpi-root'
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.69253333333333345, 0.73526486486486498, 0.98000000000000009, 1.0), (0.0, 0.14864864864864868, 1.0, 1.0), (0.0, 1.0, 0.0, 1.0)]
+selected-color=(true, 0.69253333333333345, 0.73526486486486498, 0.98000000000000009, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=187
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1231, 902)
+
+[org/virt-manager/virt-manager]
+manager-window-height=550
+manager-window-width=550
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=['qemu:///system']
+uris=['qemu+ssh://root@server/system', 'qemu+ssh://root@bum5.dynsinn.org/system', 'qemu:///system']
+
+[org/virt-manager/virt-manager/conns/qemu+ssh:root@bum.gecius.desystem]
+window-size=(800, 600)
+
+[org/virt-manager/virt-manager/conns/qemu:system]
+window-size=(800, 600)
+
+[org/virt-manager/virt-manager/details]
+show-toolbar=true
+
+[org/virt-manager/virt-manager/new-vm]
+graphics-type='system'
+
+[org/virt-manager/virt-manager/vmlist-fields]
+disk-usage=false
+network-traffic=false
+
+[org/virt-manager/virt-manager/vms/3ed87810fcc4481cbdc8c65552c4a92a]
+autoconnect=1
+scaling=1
+vm-window-size=(1278, 926)

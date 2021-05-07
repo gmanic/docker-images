@@ -1,0 +1,138 @@
+[profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '449b91ec-0e73-4829-a8cb-d5ebfe19173d', '4287c323-8ec0-46c8-a5a8-189a8118f885', 'f05f9b21-40df-40d7-9003-914ecdc88bc1', '86aad889-2c6e-431c-9115-ca3d48a7cc69', '7960f69c-aa3f-4364-b079-c2041b3775a2', '5f6711e8-45d6-48ac-9406-dc3d20ed6beb', '6469545a-73c9-4b1c-8380-0e950e367bb9', 'caa1311b-e9ef-4ac9-8a66-fada9bbc3dff', '4b723b25-4ce1-46b0-beaa-b1aa913ab593', '76f0d8e1-f73d-47ff-9838-5a027d4c4f70', '24667fe2-9f6e-4958-8e38-c6fb6786f079', '6ce33abc-0570-46a0-9287-b4b3a9576853', 'ec6e2e07-be47-4605-b2bd-53ed284d612e', 'd4c60d11-9e1e-45e8-a8dd-49c966328d1e']
+
+[profiles:/:24667fe2-9f6e-4958-8e38-c6fb6786f079]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20110 jens-home-http -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='home-jens-http-root'
+
+[profiles:/:4287c323-8ec0-46c8-a5a8-189a8118f885]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20010 jens-fhempi -X -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-fhempi-root'
+
+[profiles:/:449b91ec-0e73-4829-a8cb-d5ebfe19173d]
+background-color='rgb(253,246,227)'
+custom-command='autossh -M 20000 jens-server -t "screen -xRR"'
+default-size-columns=130
+default-size-rows=40
+foreground-color='rgb(101,123,131)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='server-root'
+
+[profiles:/:4b723b25-4ce1-46b0-beaa-b1aa913ab593]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20090 bum -t "screen -xRR"'
+default-size-columns=80
+default-size-rows=40
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-root'
+
+[profiles:/:5f6711e8-45d6-48ac-9406-dc3d20ed6beb]
+background-color='rgb(46,52,54)'
+custom-command='autossh -M 20060 jens-http -t "screen -xRR"'
+default-size-columns=160
+default-size-rows=30
+foreground-color='rgb(211,215,207)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-jens-http-root'
+
+[profiles:/:6469545a-73c9-4b1c-8380-0e950e367bb9]
+background-color='rgb(46,52,54)'
+custom-command='autossh -M 20070 jens-mail -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(211,215,207)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-jens-mail-root'
+
+[profiles:/:6ce33abc-0570-46a0-9287-b4b3a9576853]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20120 jens-home-vm -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='home-jens-vm-root'
+
+[profiles:/:76f0d8e1-f73d-47ff-9838-5a027d4c4f70]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20100 ulf-dns -t "screen -xRR"'
+default-size-columns=80
+default-size-rows=40
+foreground-color='rgb(170,170,170)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-ulf-dns-root'
+
+[profiles:/:7960f69c-aa3f-4364-b079-c2041b3775a2]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20040 CarPi -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-carpi-root'
+
+[profiles:/:86aad889-2c6e-431c-9115-ca3d48a7cc69]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20030 jens-vpnpi -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-vpnpi-root'
+
+[profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='Local-Default'
+
+[profiles:/:caa1311b-e9ef-4ac9-8a66-fada9bbc3dff]
+background-color='rgb(46,52,54)'
+custom-command='autossh -M 20080 jens-other -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(211,215,207)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='bum-jens-other-root'
+
+[profiles:/:d4c60d11-9e1e-45e8-a8dd-49c966328d1e]
+background-color='rgb(0,43,54)'
+custom-command='autossh -M 20130 jens-home-build -t "screen -xRR"'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(131,148,150)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='home-jens-build-root'
+
+[profiles:/:ec6e2e07-be47-4605-b2bd-53ed284d612e]
+background-color='rgb(0,0,0)'
+custom-command='ssh root@localhost'
+default-size-columns=100
+default-size-rows=45
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='Local-root'
+
+[profiles:/:f05f9b21-40df-40d7-9003-914ecdc88bc1]
+background-color='rgb(0,0,0)'
+custom-command='autossh -M 20020 jens-hallenpi -t "screen -xRR"'
+foreground-color='rgb(0,255,0)'
+use-custom-command=true
+use-theme-colors=false
+visible-name='pi-hallenpi-root'
