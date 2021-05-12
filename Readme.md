@@ -40,7 +40,7 @@ docker run -e REMOTE_HOST=www.marcnuri.com -p 8080:80 marcnuri/port-forward
 ## Docker hub
 
 Docker image hosted at Docker Hub:
-https://hub.docker.com/r/gmanic/port-forward6/
+https://hub.docker.com/r/gmaniac/port-forward6/
 
 ## Credit
 
